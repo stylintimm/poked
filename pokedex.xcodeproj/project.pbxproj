@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7A3F24E1DDC9FAF00751956 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A3F24D1DDC9FAF00751956 /* PokemonDetailVC.swift */; };
 		F7CDF1021DDB86F800CD1723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CDF1011DDB86F800CD1723 /* AppDelegate.swift */; };
 		F7CDF1041DDB86F800CD1723 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CDF1031DDB86F800CD1723 /* ViewController.swift */; };
 		F7CDF1071DDB86F800CD1723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CDF1051DDB86F800CD1723 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7A3F24D1DDC9FAF00751956 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		F7CDF0FE1DDB86F800CD1723 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CDF1011DDB86F800CD1723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7CDF1031DDB86F800CD1723 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				F7CDF1081DDB86F800CD1723 /* Assets.xcassets */,
 				F7CDF10A1DDB86F800CD1723 /* LaunchScreen.storyboard */,
 				F7CDF10D1DDB86F800CD1723 /* Info.plist */,
+				F7A3F24D1DDC9FAF00751956 /* PokemonDetailVC.swift */,
 			);
 			path = pokedex;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				F7CDF11A1DDBAD4D00CD1723 /* PokeCell.swift in Sources */,
 				F7CDF1171DDB987900CD1723 /* Pokeman.swift in Sources */,
 				F7CDF1041DDB86F800CD1723 /* ViewController.swift in Sources */,
+				F7A3F24E1DDC9FAF00751956 /* PokemonDetailVC.swift in Sources */,
 				F7CDF1021DDB86F800CD1723 /* AppDelegate.swift in Sources */,
 				F7CDF11C1DDC73B600CD1723 /* csv.swift in Sources */,
 			);
@@ -369,6 +373,7 @@
 				F7CDF1121DDB86F800CD1723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
